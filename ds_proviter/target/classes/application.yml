@@ -1,0 +1,10 @@
+server:
+  port: 881
+spring:
+  application:
+    name: ds_proviter
+dubbo:
+  application:
+    name: ds_proviter
+  registry:
+    address: zookeeper://47.94.196.55:2181

@@ -1,0 +1,10 @@
+server:
+  port: 882
+spring:
+  application:
+    name: ds_consumer
+dubbo:
+  application:
+    name: ds_consumer
+  registry:
+    address: zookeeper://47.94.196.55:2181
